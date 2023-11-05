@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(224, 219, 219);
+
+}
+
+#logo {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    /* width: 68px; */
+    bottom: 20px;
+
+}
+
+#navbarul,
+li {
+
+    bottom: 20px;
+    display: inline-block;
+    position: relative;
+    left: 185px
+}
+
+#navbar {
+    background-color: grey;
+    /* margin: 20px; */
+
+}
+
+.para {
+    text-align: center;
+
+}
+.paraa{
+    position: relative;
+    font-weight: bold;
+    left: 146px;
+}
+
+#text {
+    text-align: center;
+    line-height: 50px;
+}
+
+#tag {
+    text-align: center;
+    line-height: 100px;
+}
+
+div.image {
+    display: inline-block;
+    position: relative;
+
+}
+
+#heading {
+
+    color: blue;
+    display: inline-block;
+    position: relative;
+    left: 230px;
+    top: 20px;
+}
+
+.para {
+    color: black;
+    position: relative;
+
+
+}
+
+a:link {
+
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    /* text-decoration: underline; */
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    /* text-decoration: underline; */
+}
+
+.apple {
+
+    display: flex;
+    float: right;
+    height: 40%;
+
+    position: relative;
+    left: 365px;
+    bottom: 180px;
+
+}
+
+footer {
+
+    height: 100%;
+    width: 100%;
+
+    display: inline-block;
+    background-color: rgb(41, 42, 42);
+
+}
+
+.footer li {
+
+   display: inline-block;
+    position: relative;
+    color: rgb(246, 246, 246);
+    top: 14px;
+    left:  10px;
+    /* margin: 8px 0px 0px 2px; */
+    padding: 12PX;
+    margin: 17px;
+    margin-top: 50px;
+
+}
+.footer li:hover{
+    background-color: azure;
+    color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
